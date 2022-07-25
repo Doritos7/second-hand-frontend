@@ -189,12 +189,12 @@ const ProductView = () => {
           >
             Edit
           </button>
-          <button
+          {/* <button
             className="outline  rounded-md py-3 px-2 outline-1 outline-red-600"
             onClick={doDeleteProduct}
           >
             Hapus Produk
-          </button>
+          </button> */}
         </>
       );
     else return <ButtonPrimary type="disabled">Sudah Terjual</ButtonPrimary>;
